@@ -1,0 +1,25 @@
+El instituto "Ing. Liccethe Cabrera" requiere la comunicación, vía red, para
+miembros de su comunidad de acuerdo con intereses comunes. Para ello,
+cuenta con la IP 192.168.10.0 /24 para atender a 3 conjuntos:
+a) Profesores
+b) alumnos
+c) administrativos
+Por ahora, cada conjunto contará solo con 2 computadoras y un servidor web
+distribuidos en 3 pisos: un equipo por piso. A raíz de un análisis previo se
+propone el empleo de un switch por nivel y estarían enlazados por medio de
+otro switch ubicado en el nivel 1. Los 4 switches sugeridos por el consejo técnico
+del Instituto serían: WS-C2960X-24TS-L. Y el router: CISCO2911-HSEC+/K9.
+La asignación de puertos, donde aplique, es la siguiente:
+a) puerto 1 a 7 para profesores
+b) puerto 8 a 15 para alumnos
+c) puertos 16 a 23 para administrativos
+PROCEDIMIENTO
+1. Proponga e implemente el diseño de la solución a este requerimiento en
+el simulador. (Ver Figura 1. Topología Propuesta).
+2. Realice la cotización del material y equipo a emplear. Recuerde que el
+Instituto ya cuenta con los equipos de cómputo.
+3. Realice los planos de distribución (vista aérea y vista lateral) Ver ejemplo
+en Figura 2. Distribución por piso.
+4. Registre cada etapa del trabajo desarrollado y realice el reporte
+correspondiente. Este último deberá mostrar también la justificación de
+la asignación de IPs a los equipos (PCs y Servidores) empleados.
