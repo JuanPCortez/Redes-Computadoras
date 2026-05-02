@@ -1,1 +1,20 @@
+Desarrolla la topología propuesta en la figura, se compone de:
+4 Routers 1841
+1 switch 2960
+2 PC
+1 servidor
+Las redes a trabajar serán:
+5.0.0.0/8
+10.0.0.0/8
+15.0.0.0/8
+20.0.0.0/8
+25.0.0.0/8
+Deberás realizar enrutamiento estático mediante
+IP de siguiente salto
+Interfaz de Salida
+Por defecto
+En la figura se muestra que tipo de enrutamiento se debe realizar. 
+En los routers se debe realizar la configuración de sus interfaces y configurar 
+el DCE con un clock rate de 64000. El router 2 será un router DHCP para ambas computadoras y el servidor.
 
+Al final del ejercicio debe haber comunicación entre las 2 computadoras y el servidor será configurado por DNS y HTTP. La página debe ser accedida y mostrada por las 2 computadoras a través de IP y dominio DNS.
